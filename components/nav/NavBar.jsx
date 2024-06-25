@@ -27,8 +27,8 @@ const NavBar = () => {
         </Link>
         {/* menu */}
         <div className="flex items-center gap-5 font-satoshi">
-          {headerMenu.map((menu) => (
-            <Link href={menu.href} className="text-[15px]">
+          {headerMenu.map((menu, id) => (
+            <Link href={menu.href} className="text-[15px]" key={id}>
               {menu.menu}
             </Link>
           ))}
@@ -64,11 +64,12 @@ const NavBar = () => {
         {/* menu */}
         {isOpen ? (
           <div className="flex flex-col items-end gap-5 font-satoshi shadow-lg border w-fit ml-auto py-10 px-6 rounded-lg transition-all duration-1000 delay-500">
-            {headerMenu.map((menu) => (
+            {headerMenu.map((menu, id) => (
               <Link
                 href={menu.href}
                 className="text-[15px]"
                 onClick={closeMenu}
+                key={id}
               >
                 {menu.menu}
               </Link>
