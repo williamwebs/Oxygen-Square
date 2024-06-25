@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-4 mt-20">
             {services.map((service) => (
-              <div className="flex items-start gap-3">
+              <div className="flex items-start gap-3" key={service.heading}>
                 <div className="w-[60px]">
                   <Image src={service.icon} width={100} height={100} alt="" />
                 </div>
@@ -89,7 +89,7 @@ export default function Home() {
 
               <div className="flex flex-col gap-3 mt-5">
                 {workFlow.map((i) => (
-                  <div className="flex items-start gap-3 p-5 rounded-lg shadow-md">
+                  <div className="flex items-start gap-3 p-5 rounded-lg shadow-md" key={i.heading}>
                     <div className="w-[40px]">
                       <Image src={i.icon} width={100} height={100} alt="" />
                     </div>
