@@ -12,6 +12,15 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        grotesk: ["var(--font-gotesk)"],
+        satoshi: ["var(--font-satoshi)"],
+      },
+      colors: {
+        primary: "#9F71D6",
+        bgGray: "#f4f4f6",
+        textGray: "343D48",
+      },
     },
   },
   plugins: [],

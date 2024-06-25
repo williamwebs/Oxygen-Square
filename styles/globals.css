@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-color: #475569;
+  --background: 225, 225, 225;
+  --cta-bg: #9f71d6;
+  --white: #fff;
+  --bg-gray: #f4f4f6;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+}
+
+.button {
+  @apply bg-primary text-white px-[30px] py-[10px] rounded-md font-grotesk;
+}
+
+.hero__bg {
+  background-image: url("../public/images/hero-bg-pattern-2.png");
+}
+
+.mockup {
+  background-image: url("../public/images/hero-mockup.png");
+}
+
+section {
+  @apply my-10 py-12;
+}
+
+.span {
+  @apply text-[#858B91] text-center font-normal font-satoshi text-base;
+}
