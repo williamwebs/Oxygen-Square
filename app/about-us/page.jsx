@@ -18,6 +18,7 @@ const AboutUs = () => {
             width={300}
             height={700}
             alt="an african child standing"
+            className="hover:grayscale transition-all duration-200"
           />
         </div>
         <div className="w-full md:w-2/5">
@@ -36,10 +37,10 @@ const AboutUs = () => {
               addressing the digital divide and lack of essential amenities in
               underserved rural university communities in Nigeria. Inspired by
               firsthand experiences during undergraduate studies by the founding
-              team members, the venture seeks to create breathing space&#34;s
+              team members, the venture seeks to create breathing space&#39;s
               that leverage architecture, sustainable solutions, and technology
               to enhance innovation, collaboration, and productivity. By
-              providing highly equipped co-working spaces and additional
+              providing highly equipped co-working space&#39;s and additional
               amenities such as a tech academy, cinema, podcast studio, and a
               coffee and bakery shop under one roof, Oxygen Square prioritizes
               accessibility and affordability, bringing urban-quality facilities
@@ -55,7 +56,7 @@ const AboutUs = () => {
             Our Mission
           </h3>
           <p className="span">
-            At Oxygen Square, our mission is to create breathing spaces&#34;s in
+            At Oxygen Square, our mission is to create breathing space&#39;s in
             underserved rural university communities across Nigeria by
             leveraging architecture, sustainable solutions and technology.
           </p>
@@ -66,7 +67,7 @@ const AboutUs = () => {
             width={300}
             height={700}
             alt="clock"
-            className="mx-auto"
+            className="mx-auto hover:grayscale transition-all duration-200"
           />
         </div>
         <div className="w-full md:w-2/5 mt-0 md:mt-28">
@@ -88,7 +89,7 @@ const AboutUs = () => {
         </h3>
         <p className="span">
           Here are guiding principles that drive our mission of empowering
-          spaces in rural communities
+          space&#39;s in rural communities
         </p>
 
         {/* content */}
@@ -125,6 +126,7 @@ const AboutUs = () => {
               width={500}
               height={700}
               alt="an african child standing"
+              className="hover:grayscale transition-all duration-200"
             />
           </div>
         </div>
@@ -138,6 +140,7 @@ const AboutUs = () => {
               width={500}
               height={100}
               alt="an african child standing"
+              className="hover:grayscale transition-all duration-200"
             />
           </div>
           {/* content */}
@@ -148,7 +151,7 @@ const AboutUs = () => {
                   Problem Solvers
                 </h3>
                 <p className="span left">
-                  We don&#34;t wait for others to take action. We take risks and
+                  We don&#39;t wait for others to take action. We take risks and
                   proactively bring about transformation, tackling problems
                   head-on to create impactful change.
                 </p>
@@ -178,7 +181,7 @@ const AboutUs = () => {
                 </h3>
                 <p className="span left">
                   We believe in the power of community and the importance of
-                  fostering strong connections. Our spaces are designed to
+                  fostering strong connections. Our space&#39;s are designed to
                   promote collaboration, networking, and mutual support among
                   users.
                 </p>
@@ -204,6 +207,7 @@ const AboutUs = () => {
               width={500}
               height={700}
               alt="an african child standing"
+              className="hover:grayscale transition-all duration-200"
             />
           </div>
         </div>
@@ -217,12 +221,13 @@ const AboutUs = () => {
               width={500}
               height={100}
               alt="an african child standing"
+              className="hover:grayscale transition-all duration-200"
             />
           </div>
           {/* content */}
           <div className="w-full md:w-1/2 p-5 rounded-3xl bg-[#E2E8F0]">
             <div className="flex flex-col gap-5">
-              <aside>
+              <div>
                 <h3 className="text-left font-bold font-grotesk text-2xl text-black">
                   Accessibility
                 </h3>
@@ -233,17 +238,17 @@ const AboutUs = () => {
                   that everyone in the community has the opportunity to benefit
                   from our resources.
                 </p>
-              </aside>
-              <aside>
+              </div>
+              <div>
                 <h3 className="text-left font-bold font-grotesk text-2xl text-black">
                   Integrity
                 </h3>
                 <p className="span left">
                   We operate with honesty, transparency, and ethical principles.
-                  Our user&#34;s trust is paramount, and we are dedicated to
+                  Our user&#39;s trust is paramount, and we are dedicated to
                   maintaining it through our actions and business practices.
                 </p>
-              </aside>
+              </div>
             </div>
           </div>
         </div>
