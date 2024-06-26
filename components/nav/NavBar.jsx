@@ -7,9 +7,12 @@ import Btn from "../button/Btn";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBarsStaggered, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+  console.log(pathname);
 
   const closeMenu = () => {
     setIsOpen((prev) => !prev);
@@ -28,7 +31,15 @@ const NavBar = () => {
         {/* menu */}
         <div className="flex items-center gap-5 font-satoshi">
           {headerMenu.map((menu, id) => (
-            <Link href={menu.href} className="text-[15px]" key={id}>
+            <Link
+              href={menu.href}
+              className={
+                pathname === menu.href
+                  ? "text-[15px] text-primary font-semibold"
+                  : "text-[15px]"
+              }
+              key={id}
+            >
               {menu.menu}
             </Link>
           ))}
@@ -67,7 +78,11 @@ const NavBar = () => {
             {headerMenu.map((menu, id) => (
               <Link
                 href={menu.href}
-                className="text-[15px]"
+                className={
+                  pathname === menu.href
+                    ? "text-[15px] text-primary font-semibold"
+                    : "text-[15px]"
+                }
                 onClick={closeMenu}
                 key={id}
               >

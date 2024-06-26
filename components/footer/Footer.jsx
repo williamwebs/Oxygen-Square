@@ -13,17 +13,17 @@ const Footer = () => {
         </p>
 
         {/* form */}
-        <form className="max-w-sm mx-auto mt-8 h-[40px] rounded-full overflow-hidden flex items-stretch gap-2">
+        <form className="max-w-sm mx-auto mt-8 md:h-[40px] rounded-md md:rounded-full overflow-hidden flex flex-col md:flex-row md:items-stretch gap-2">
           <input
             type="email"
             name=""
             id=""
-            className="rounded-full flex-1 px-4 outline-none border-none text-textGray text-base placeholder:text-sm font-satoshi bg-gray-900"
+            className="rounded-full md:flex-1 h-[40px] px-4 outline-none border-none text-textGray text-base placeholder:text-sm font-satoshi bg-gray-900"
             placeholder="Enter your email"
           />
           <button
             type="submit"
-            className="bg-primary text-white text-sm font-grotesk px-4 rounded-full"
+            className="bg-primary text-white text-sm font-grotesk px-4 rounded-full h-[40px]"
           >
             Join waitlist
           </button>

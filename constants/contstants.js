@@ -118,3 +118,26 @@ export const pricingPlan = [
     ],
   },
 ];
+
+export const teamList = [
+  {
+    name: "Laughter Atanda",
+    bio: "Founder, Head of Operations",
+    image: "/images/laughter.jpg",
+  },
+  {
+    name: "William Anaza",
+    bio: "Head of Technology & IT systems",
+    image: "/images/william-headshot-3.jpg",
+  },
+  {
+    name: "Iremitunde Treasure",
+    bio: "Head of Marketing & Community Management",
+    image: "/images/iremituntide.jpg",
+  },
+  {
+    name: "Oluwatobiloba Adebayo",
+    bio: "Head of Strategy & Business Development",
+    image: "/images/adebayo-1.jpg",
+  },
+];

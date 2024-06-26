@@ -16,7 +16,7 @@ body {
 }
 
 .button {
-  @apply bg-primary text-white px-[30px] py-[10px] rounded-md font-grotesk;
+  @apply bg-primary hover:bg-primary/80 transition-all duration-200 text-white px-[30px] py-[10px] rounded-md font-grotesk;
 }
 
 .hero__bg {
@@ -33,4 +33,12 @@ section {
 
 .span {
   @apply text-[#858B91] text-center font-normal font-satoshi text-base;
+}
+
+.span.justify {
+  @apply text-justify;
+}
+
+.span.left {
+  @apply text-left;
 }
