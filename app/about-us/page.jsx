@@ -36,13 +36,14 @@ const AboutUs = () => {
               addressing the digital divide and lack of essential amenities in
               underserved rural university communities in Nigeria. Inspired by
               firsthand experiences during undergraduate studies by the founding
-              team members, the venture seeks to create "breathing spaces" that
-              leverage architecture, sustainable solutions, and technology to
-              enhance innovation, collaboration, and productivity. By providing
-              highly equipped co-working spaces and additional amenities such as
-              a tech academy, cinema, podcast studio, and a coffee and bakery
-              shop under one roof, Oxygen Square prioritizes accessibility and
-              affordability, bringing urban-quality facilities to rural areas.
+              team members, the venture seeks to create &quot;breathing
+              spaces&quot; that leverage architecture, sustainable solutions,
+              and technology to enhance innovation, collaboration, and
+              productivity. By providing highly equipped co-working spaces and
+              additional amenities such as a tech academy, cinema, podcast
+              studio, and a coffee and bakery shop under one roof, Oxygen Square
+              prioritizes accessibility and affordability, bringing
+              urban-quality facilities to rural areas.
             </p>
           </div>
         </div>
@@ -54,9 +55,10 @@ const AboutUs = () => {
             Our Mission
           </h3>
           <p className="span">
-            At Oxygen Square, our mission is to create "breathing spaces" in
-            underserved rural university communities across Nigeria by
-            leveraging architecture, sustainable solutions and technology.
+            At Oxygen Square, our mission is to create &quot;breathing
+            spaces&quot; in underserved rural university communities across
+            Nigeria by leveraging architecture, sustainable solutions and
+            technology.
           </p>
         </div>
         <div className="w-full md:w-1/5">
@@ -147,8 +149,8 @@ const AboutUs = () => {
                   Problem Solvers
                 </h3>
                 <p className="span left">
-                  We don’t wait for others to take action. We take risks and
-                  proactively bring about transformation, tackling problems
+                  We don&quot;t wait for others to take action. We take risks
+                  and proactively bring about transformation, tackling problems
                   head-on to create impactful change.
                 </p>
               </aside>
@@ -239,7 +241,7 @@ const AboutUs = () => {
                 </h3>
                 <p className="span left">
                   We operate with honesty, transparency, and ethical principles.
-                  Our users' trust is paramount, and we are dedicated to
+                  Our users&quot; trust is paramount, and we are dedicated to
                   maintaining it through our actions and business practices.
                 </p>
               </aside>
