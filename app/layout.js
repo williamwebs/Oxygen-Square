@@ -4,8 +4,6 @@ import "../styles/globals.css";
 import NavBar from "@/components/nav/NavBar";
 import Footer from "@/components/footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
-
 const grotesk = localfont({
   src: [
     {
@@ -27,7 +25,8 @@ const satoshi = localfont({
 
 export const metadata = {
   title: "Oxygen Sqare",
-  description: "breathing...",
+  description:
+    "Beyond coworking spaces, we are an innovative hub designed to bridge the digital divide and infrastructure gap in rural university communities across Nigeria",
 };
 
 export default function RootLayout({ children }) {
