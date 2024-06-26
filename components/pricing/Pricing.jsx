@@ -60,7 +60,7 @@ const Pricing = () => {
         {pricingPlan.map((plan) => (
           <div className="border pt-20 rounded-md relative" key={plan.plan}>
             {plan.plan === "Weekly pass" && (
-              <div className="absolute -top-2 md:-top-5 left-5 bg-[#8D448B] text-white text-sm font-satoshi rounded-md px-4 py-2">
+              <div className="absolute -top-2 md:-top-5 left-5 bg-primary text-white text-sm font-satoshi rounded-md px-4 py-2">
                 Recommended
               </div>
             )}

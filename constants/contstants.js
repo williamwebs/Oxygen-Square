@@ -133,7 +133,7 @@ export const teamList = [
   {
     name: "Iremitunde Treasure",
     bio: "Head of Marketing & Community Management",
-    image: "/images/iremituntide.jpg",
+    image: "/images/iremituntide-1.jpg",
   },
   {
     name: "Oluwatobiloba Adebayo",

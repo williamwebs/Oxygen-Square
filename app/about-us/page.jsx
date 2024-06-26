@@ -122,7 +122,7 @@ const AboutUs = () => {
           {/* images */}
           <div className="w-full md:w-1/2 rounded-3xl overflow-hidden">
             <Image
-              src={"/images/value-1.png"}
+              src={"/images/value-2.png"}
               width={500}
               height={700}
               alt="an african child standing"
@@ -136,7 +136,7 @@ const AboutUs = () => {
           {/* images */}
           <div className="w-full md:w-1/2 rounded-3xl overflow-hidden mt-0 md:-mt-72">
             <Image
-              src={"/images/value-2.png"}
+              src={"/images/value-1.png"}
               width={500}
               height={100}
               alt="an african child standing"

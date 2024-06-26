@@ -1,6 +1,8 @@
 import Btn from "@/components/button/Btn";
 import Pricing from "@/components/pricing/Pricing";
 import { services, workFlow } from "@/constants/contstants";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -28,8 +30,10 @@ export default function Home() {
             </div>
           </div>
           <div className="hero__bg bg-no-repeat bg-cover h-[400px] w-full absolute top-0 md:top-14 z-0"></div>
-          <div className="mockup h-[400px] max-w-[735px] md:-ml-4 w-full bg-no-repeat bg-cover bg-center rounded-t-3xl border-2 overflow-hidden p-5">
-            embed video here
+          <div className="bg-black h-[400px] max-w-[735px] md:-ml-4 w-full bg-no-repeat bg-cover bg-center rounded-t-3xl border-2 overflow-hidden p-5">
+            <div className="flex items-center justify-center w-full h-full">
+              <FontAwesomeIcon icon={faPlay} className="text-3xl md:text-4xl text-primary cursor-pointer" />
+            </div>
           </div>
         </header>
         {/* explore our services */}
@@ -89,7 +93,10 @@ export default function Home() {
 
               <div className="flex flex-col gap-3 mt-5">
                 {workFlow.map((i) => (
-                  <div className="flex items-start gap-3 p-5 rounded-lg shadow-md" key={i.heading}>
+                  <div
+                    className="flex items-start gap-3 p-5 rounded-lg shadow-md"
+                    key={i.heading}
+                  >
                     <div className="w-[40px]">
                       <Image src={i.icon} width={100} height={100} alt="" />
                     </div>
