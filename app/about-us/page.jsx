@@ -37,7 +37,7 @@ const AboutUs = () => {
               underserved rural university communities in Nigeria. Inspired by
               firsthand experiences during undergraduate studies by the founding
               team members, the venture seeks to create &quot;breathing
-              spaces&quot; that leverage architecture, sustainable solutions,
+              spaces &quot; that leverage architecture, sustainable solutions,
               and technology to enhance innovation, collaboration, and
               productivity. By providing highly equipped co-working spaces and
               additional amenities such as a tech academy, cinema, podcast
@@ -56,7 +56,7 @@ const AboutUs = () => {
           </h3>
           <p className="span">
             At Oxygen Square, our mission is to create &quot;breathing
-            spaces&quot; in underserved rural university communities across
+            spaces &quot; in underserved rural university communities across
             Nigeria by leveraging architecture, sustainable solutions and
             technology.
           </p>
@@ -241,7 +241,7 @@ const AboutUs = () => {
                 </h3>
                 <p className="span left">
                   We operate with honesty, transparency, and ethical principles.
-                  Our users&quot; trust is paramount, and we are dedicated to
+                  Our users &quot; trust is paramount, and we are dedicated to
                   maintaining it through our actions and business practices.
                 </p>
               </aside>
