@@ -36,7 +36,7 @@ const AboutUs = () => {
               addressing the digital divide and lack of essential amenities in
               underserved rural university communities in Nigeria. Inspired by
               firsthand experiences during undergraduate studies by the founding
-              team members, the venture seeks to create breathing spaces&#39;s
+              team members, the venture seeks to create breathing space&#34;s
               that leverage architecture, sustainable solutions, and technology
               to enhance innovation, collaboration, and productivity. By
               providing highly equipped co-working spaces and additional
@@ -55,7 +55,7 @@ const AboutUs = () => {
             Our Mission
           </h3>
           <p className="span">
-            At Oxygen Square, our mission is to create breathing spaces&#39;s in
+            At Oxygen Square, our mission is to create breathing spaces&#34;s in
             underserved rural university communities across Nigeria by
             leveraging architecture, sustainable solutions and technology.
           </p>
@@ -148,7 +148,7 @@ const AboutUs = () => {
                   Problem Solvers
                 </h3>
                 <p className="span left">
-                  We don&#39;t wait for others to take action. We take risks and
+                  We don&#34;t wait for others to take action. We take risks and
                   proactively bring about transformation, tackling problems
                   head-on to create impactful change.
                 </p>
@@ -240,7 +240,7 @@ const AboutUs = () => {
                 </h3>
                 <p className="span left">
                   We operate with honesty, transparency, and ethical principles.
-                  Our user&#39;s trust is paramount, and we are dedicated to
+                  Our user&#34;s trust is paramount, and we are dedicated to
                   maintaining it through our actions and business practices.
                 </p>
               </aside>
