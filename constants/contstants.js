@@ -123,21 +123,21 @@ export const teamList = [
   {
     name: "Laughter Atanda",
     bio: "Founder, Head of Operations",
-    image: "/images/laughter.jpg",
+    image: "/images/laughter1.png",
   },
   {
     name: "William Anaza",
     bio: "Head of Technology & IT systems",
-    image: "/images/william-headshot-3.jpg",
+    image: "/images/william1.png",
   },
   {
     name: "Iremitunde Treasure",
     bio: "Head of Marketing & Community Management",
-    image: "/images/iremituntide-1.jpg",
+    image: "/images/ire1.png",
   },
   {
     name: "Oluwatobiloba Adebayo",
     bio: "Head of Strategy & Business Development",
-    image: "/images/adebayo-1.jpg",
+    image: "/images/tobi1.png",
   },
 ];

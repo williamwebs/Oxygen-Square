@@ -13,8 +13,8 @@ const Team = () => {
             <Image src={t.image} width={300} height={100} alt={t.name} className="hover:grayscale" />
             <div className="absolute bottom-0 left-0 h-[4.5rem] w-full bg-white/20 backdrop-blur-sm px-3 py-3 ">
               <div className="text-center">
-                <h5 className="font-bold text-[1.2rem] text-white">{t.name}</h5>
-                <p className="font-medium text-[12px] text-white">{t.bio}</p>
+                <h5 className="font-bold text-[1.2rem] text-white team__name">{t.name}</h5>
+                <p className="font-medium text-[12px] text-white team__role">{t.bio}</p>
               </div>
             </div>
           </div>

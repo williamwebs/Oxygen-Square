@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         grotesk: ["var(--font-gotesk)"],
         satoshi: ["var(--font-satoshi)"],
+        mulish: ["Mulish", "sans-serif"],
       },
       colors: {
         primary: "#9F71D6",

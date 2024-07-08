@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +15,6 @@
 body {
   background: var(--background);
   color: var(--text-color);
-  
 }
 
 .button {
@@ -42,4 +43,12 @@ section {
 
 .span.left {
   @apply text-left;
+}
+
+.team__name {
+  font-family: "Mulish", sans-serif;
+}
+.team__role {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
 }
